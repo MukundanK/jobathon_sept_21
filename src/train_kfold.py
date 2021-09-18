@@ -10,9 +10,6 @@ def create_folds(df, target_col, processed_dir):
     # create kfold column and fill with 0
     df['kfold'] = 0
 
-    # shuffle data and reset index
-    df = df.sample(frac = 1).reset_index(drop = True)
-
     # kfold
     kf = model_selection.KFold(n_splits=3)
     for f, (t_, v_) in enumerate(kf.split(X = df, y = df[target_col].values)):
