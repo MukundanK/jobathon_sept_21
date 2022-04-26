@@ -1,5 +1,5 @@
 # Jobathon September 2021
-by [Analytics Vidhya] (https://www.analyticsvidhya.com)
+by [Analytics Vidhya](https://www.analyticsvidhya.com)
 
 # Supplement Sales Prediction
 
